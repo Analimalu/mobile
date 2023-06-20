@@ -1,0 +1,70 @@
+-    ~/Arquivos de Aula/ANA  export ANDROID_HOME=$HOME/Android/Sdk                                                                                                       ✔ 
+-    ~/Arquivos de Aula/ANA  export PATH=$PATH:$ANDROID_HOME/emulator                                                                                                    ✔ 
+-   ~/Arquivos de Aula/ANA  export PATH=$PATH:$ANDROID_HOME/platform-tools                                                                                              ✔ 
+-    ~/Arquivos de Aula/ANA  npx create-expo-app projeto  
+
+npx create-expo-app projeto 
+
+cd projeto
+
+npx expo install react-native-web react-dom
+@expo/webpack-config
+
+npx expo start
+
+    ~/Arquivos de Aula/ANA  npx create-expo-app projeto1                                                                                                              1 ✘ 
+✔ Downloaded and extracted project files.
+> npm install
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
+
+added 1250 packages, and audited 1251 packages in 43s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (1 low, 9 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+✅ Your project is ready!
+
+To run your project, navigate to the directory and run one of the following npm commands.
+
+- cd projeto1
+- npm run android
+- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+- npm run web
+    ~/Arquivos de Aula/ANA  cd projeto1                                                                                                                         ✔  49s  
+    ~/Arquivos de Aula/ANA/projeto1    master +10    npx expo install react-native-web react-dom @expo/webpack-config                                                ✔ 
+› Installing 3 SDK 48.0.0 compatible native modules using npm
+> npm install
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+
+added 351 packages, and audited 1602 packages in 4m
+
+103 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (1 low, 10 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+    ~/Arquivos de Aula/ANA/projeto1    master +10 !2                           
