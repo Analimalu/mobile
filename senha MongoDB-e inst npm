@@ -1,0 +1,3 @@
+mongodb+srv://<username>:<password>@cloud0.wt0q5m4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp
+-----------------------------------------------
+npm install mongodb
